@@ -35,21 +35,21 @@ module.exports = {
         global.author = global.data.owner
         //global.author = 'The.sad.boy01'
         global.wm2 = global.data.namabot + ' ' + global.data.owner
-        global.wm = namabot + ' ву 𝚃𝚑𝚎.𝚂𝚊𝚍.𝙱𝚘𝚢𝟶𝟷'
-        global.colong1 = 'Ciss 📸'
-        global.colong2 = 'ʙy 𝚃𝚑𝚎.𝚂𝚊𝚍.𝙱𝚘𝚢𝟶𝟷'
+        global.wm = namabot + ' 𝐊𝐇𝐀𝐃𝐇𝐄𝐑'
+        global.colong1 = '𝐊𝐇𝐀𝐃𝐇𝐄𝐑'
+        global.colong2 = '𝐊𝐇𝐀𝐃𝐇𝐄𝐑'
         global.kontak2 = [
-        ['62895336282144', '𝚃𝚑𝚎.𝚂𝚊𝚍.𝙱𝚘𝚢𝟶𝟷', 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'drakblue3@gmail.com', true],
-        ['6282140373458', 'Raxcel-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true],
-        ['6285691387625', 'Evil-𝙱𝙾𝚃', 'Bot WhatsApp', 'Nothing!', true]
+        ['917560920774', '𝐊𝐇𝐀𝐃𝐇𝐄𝐑', 'ᴅᴇᴠᴇʟᴏᴩᴇʀ ʙᴏᴛ', 'k.whatsappbot@gmail.com', true],
+        ['917560920774', '𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝘽𝙊𝙏', 'Bot WhatsApp', 'Nothing!', true],
+        ['917560920774', '𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝘽𝙊𝙏', 'Bot WhatsApp', 'Nothing!', true],
+        ['917560920774', '𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝘽𝙊𝙏', 'Bot WhatsApp', 'Nothing!', true],
+        ['917560920774', '𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝘽𝙊𝙏', 'Bot WhatsApp', 'Nothing!', true],
+        ['917560920774', '𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝘽𝙊𝙏', 'Bot WhatsApp', 'Nothing!', true],
+        ['917560920774', '𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝘽𝙊𝙏', 'Bot WhatsApp', 'Nothing!', true],
+        ['917560920774', '𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝘽𝙊𝙏', 'Bot WhatsApp', 'Nothing!', true],
+        ['917560920774', '𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝘽𝙊𝙏', 'Bot WhatsApp', 'Nothing!', true],
+        ['917560920774', '𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝘽𝙊𝙏', 'Bot WhatsApp', 'Nothing!', true],
+        ['917560920774', '𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝘽𝙊𝙏', 'Bot WhatsApp', 'Nothing!', true]
         ]
         global.bg = await (await fetch(img)).buffer()
         global.time = require('moment-timezone').tz('Asia/Jakarta').format('HH:mm:ss')
@@ -741,18 +741,18 @@ global.dfail = async (type, m, conn) => {
     let desl = deslink
     let gc = global.linkgc
     let msg = {
-        rowner: 'Perintah ini hanya dapat digunakan oleh _*Team Bot Discussion!1!1!*_',
-        owner: 'Perintah ini hanya dapat digunakan oleh _*Team Bot Discussion!1!1!*_',
-        mods: 'Perintah ini hanya dapat digunakan oleh *Moderator*',
-        premium: 'Perintah ini hanya untuk member _*Premium*_ !',
-        group: 'Perintah ini hanya dapat digunakan di grup!',
-        private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
-        admin: 'Perintah ini hanya untuk *Admin* grup!',
-        botAdmin: 'Jadikan bot sebagai *Admin* untuk menggunakan perintah ini!',
-        unreg: 'Silahkan daftar untuk menggunakan fitur ini dengan cara mengetik:\n\n*#daftar nama.umur*\n\nContoh: *#daftar Manusia.16*',
-        nsfw: 'NSFW tidak aktif, Silahkan hubungi Team Bot Discussion untuk mengaktifkan fitur ini!',
-        rpg: 'RPG tidak aktif, Silahkan hubungi Team Bot Discussion Untuk mengaktifkan fitur ini!',
-        restrict: 'Fitur ini di *disable*!'
+     rowner: 'This command can only be used by _*team bot discusion! 1! 1!*_',
+         Owner: 'This command can only be used by _*Team Bot Discussion! 1! 1!*_',
+         Mods: 'This command can only be used by *moderator *',
+         Premium: 'This command is only for members _*premium*_!'
+         Group: 'This command can only be used in the group!'
+         Private: 'This command can only be used in private chat!'
+         Admin: 'This command is only for * admin * group!'
+         Botadmin: 'Make the bot as * admin * to use this command!',
+         Unreg: 'Please register to use this feature by typing: \ n \ n*#list of names. Age*\ n \ n. Example:*#List of Humans.16*',
+         NSFW: 'NSFW is not active, please contact Team Bot Discussion to activate this feature!',
+         RPG: 'RPG is not active, please contact the BOT Discussion Team to activate this feature!',
+         Restrict: 'This feature is *disable *!'
     /*}[type]
     if (msg) return conn.reply(m.chat, msg, m, { mentions: conn.parseMention(msg) })*/
     }[type]
@@ -783,19 +783,19 @@ fs.watchFile(file, () => {
 
 function ucapan() {
     const time = moment.tz('Asia/Jakarta').format('HH')
-    let res = "Selamat malam 🌙"
-    if (time >= 4) {
-        res = "Selamat pagi 🌄"
-    }
-    if (time > 10) {
-        res = "Selamat siang ☀️"
-    }
-    if (time >= 15) {
-        res = "Selamat sore 🌅"
-    }
-    if (time >= 18) {
-        res = "Selamat malam 🌙"
-    }
+let res = "Good evening "
+     if (time >= 4) {
+         res = "Good morning "
+     }
+     if (time > 10) {
+         res = "Good afternoon ️"
+     }
+     if (time >= 15) {
+         res = "Good afternoon "
+     }
+     if (time >= 18) {
+         res = "Good evening "
+     }
     return res
 }
 function clockString(ms) {
@@ -809,7 +809,7 @@ function pickRandom(list) {
   return list[Math.floor(Math.random() * list.length)]
 }
 
-global.thumb = 'https://telegra.ph/file/61f2d6d9694b49a2ce7aa.jpg'
+global.thumb = 'https://telegra.ph/file/5a7adde75e966077a7692.jpg'
 
 global.flaaa = [
  'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
