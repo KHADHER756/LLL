@@ -37,7 +37,7 @@ global.APIKeys = { // APIKey Here
 global.WM = '𝙒𝙃𝘼𝙏𝙎𝘼𝙋𝙋 𝘽𝙊𝙏-𝗞𝗛𝗔𝗗𝗛𝗘𝗥'
 global.linkgc = 'https://chat.whatsapp.com/FhPPp43dYlNLi499ZJuq5X'
 global.linkig = 'https://www.instagram.com/khadh3r'
-global.deslink = ''
+global.deslink = 'https://chat.whatsapp.com/FhPPp43dYlNLi499ZJuq5X'
 global.titlink = 'Folllow me on Instagram'
 global.bodlink = 'https://telegra.ph/file/5a7adde75e966077a7692.jpg'
 
