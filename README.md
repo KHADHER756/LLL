@@ -19,7 +19,7 @@
 
 ## UNTUK PENGGUNA HEROKU
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kangsad01/bot-md)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/KHADHER756/LLL)
 
 ### Instal Buildpack
 * heroku/nodejs
