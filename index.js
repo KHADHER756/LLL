@@ -8,12 +8,12 @@ const Readline = require('readline')
 const yargs = require('yargs/yargs')
 const rl = Readline.createInterface(process.stdin, process.stdout)
 
-CFonts.say('Bot-Md', {
+CFonts.say('WHATSAPP-BOT', {
   colors: ['#f2aa4c'],
   font: 'block',
   align: 'center',
 })
-CFonts.say(`${package.name} Di Buat Oleh @${package.author.name || package.author}`, {
+CFonts.say(`${package.name} MADE BY  @${package.author.name || package.author}`, {
   colors: ['#f2aa4c'],
   font: 'console',
   align: 'center',
