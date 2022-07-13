@@ -116,7 +116,7 @@ const imports = (path) => {
 }
 let isInit = true
 global.reloadHandler = function (restatConn) {
-  let handler = imports('./handler')
+  let handler = imports('/handler')
   if (restatConn) {
     try { global.conn.ws.close() } catch { }
     global.conn = {
